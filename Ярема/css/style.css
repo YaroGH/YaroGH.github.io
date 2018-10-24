@@ -1,0 +1,25 @@
+.what{
+	background-color:blink;
+	padding:20px;
+	width:400px;
+	height:140px;
+	border:3px solid yellow;
+}
+.font_c{
+	font-family:Monotype;
+}
+h2{
+	color:green;
+	font-family:Arial;
+	font-style:italic;
+	font-size:28px;
+	margin-bottom:20px
+}
+p{
+	color:#525252;
+	font-family:Arial;
+	font-style:italic;
+	line-height:1.5;
+	font-size:16px;
+	margin-bottom:10px
+}
