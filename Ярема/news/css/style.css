@@ -1,0 +1,127 @@
+body {
+	background:  linear-gradient(blue, yellow);
+ 	font-family: 'Open Sans', Arial, sans-serif;
+ 	font-size: 10px;
+ 	line-height: 1.5em;
+ 	min-height: 100%;
+ 	margin: 0px;
+ 	padding: 0px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+h2 {
+	border: 2px solid green;
+}
+
+p{
+	margin: 0px;
+}
+
+.articles-wrapper{
+	width: 360px;
+	border: 1px solid red;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.articles-wrapper .article{
+	background: white;
+	margin-bottom: 30px; 
+	border-radius: 6px;
+	/*box-shadow: 5px 5px 5px blue  ;*/
+	box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.5), 2px 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.image-holder {
+	float: left;
+	width: 33%;
+}
+
+.image-holder img{
+	width: 100%;
+	height: auto;
+}
+/*.article-photo{
+	margin: 0;
+	float: left;
+	width: 33%;
+	}*/
+
+.articles-wrapper .article.bg-image{
+	background-image: url("../img/foto2.jpg");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-size: 100%;
+	/*background-size: cover;*/
+}
+
+.article-content{
+	margin: 0px auto;
+	float: left;
+	width: 57%;
+	padding: 15px 15px 20px 15px;
+	/*border: 1px solid green;*/
+}
+.article-content .article-header{
+	width: auto;
+	margin: 0px auto;
+	color: blue;
+	font-family: 'PT Sans',Arial, sans-serif;
+	text-transform: uppercase;
+	/*border: 1px solid blue;*/
+	
+}
+.article-content .article-text{
+	/*font-size: 16px;*/
+	margin-top: 10px;
+	margin-bottom: 0px;
+	/*border: 1px solid red;*/
+
+}
+.article-content .more-details{
+	margin-top: 20px;
+	color: green;
+	font-weight:bold;
+	/*border: 1px solid grey;*/
+
+}
+.article.bg-image .article-content{
+	width: 100%;
+	margin-bottom: 24px ;
+	padding: 0px;
+	/*border: 1px solid grey;*/
+}
+.article.bg-image .article-text {
+	margin: 0px auto;
+	/*width: 100%;*/
+	padding: 24px 60px 15px 30px;
+	color: white;
+	font-size: 16px;
+	/*font-weight:bold;*/
+	/*font-size: 1.8em;
+	line-height: 1.1em;*/
+	/*border: 1px solid green;*/
+
+}
+.article.bg-image .more-details{
+	padding-left: 30px;
+	color: white;
+	font-size: 10px;
+	/*border: 1px solid red;
+*/
+}
+.articles-wrapper .article.bg-image {
+
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
