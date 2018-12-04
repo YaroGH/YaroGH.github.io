@@ -1,0 +1,26 @@
+body{
+	height: 2000px;
+}
+.p-0{
+	padding: 0;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	height: 50px;
+	width: 50px;
+}
+.bg-light {
+    background-color: rgba(148, 185, 230, 0.5)!important;
+}
+.headerButton {
+    cursor: pointer;
+}
+.nav-item:hover{
+	background-color: rgba(10, 190, 25, 0.5);
+	border-radius: 4px;
+}
+h1{
+	padding-top: 100px; 
+}
+.site-name{
+	top: 200px;
+}
